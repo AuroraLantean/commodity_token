@@ -14,6 +14,7 @@
   `$ yarn install`
 
 - Implement the env.template variables in a .env file.
+  The `ADMIN` and `ADMINPK` is your deployment account address and private key. All the others are for testing.
 
 ```
 CHAIN_ID=11155111
@@ -37,8 +38,12 @@ $ `npx hardhat test`
 
 ## Test Deployment script
 
-in terminal one: $`yarn hnode`
-in terminal two: $`yarn deploylocal`
+- in terminal one: $`yarn hnode`
+- in terminal two: $`yarn deploylocal`
+
+---
+
+## Deploy Contracts
 
 #### Deploy Contracts To Sepolia network via Hardhat
 
