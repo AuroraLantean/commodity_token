@@ -35,7 +35,25 @@ $ `npx hardhat test`
 
 ---
 
-#### Deploy Ethereum Smart Contracts via Hardhat
+## Test Deployment script
+
+in terminal one: `$ yarn hnode`
+in terminal two: `$ yarn deploylocal`
+
+#### Deploy Contracts To Sepolia network via Hardhat
+
+Paste your Ethereum account in a Twitter tweet
+Paste that tweet URL to https://faucet-sepolia.rockx.com/
+You need 0.2 Ethers to deploy on Sepolia network
+
+Deploy contract in terminal: `$ yarn deploysepolia`
+One deployed contract on Sepolia: 0xBC8D41B7eEE9825b6d8246654f1ac6f55AE823C5
+
+#### After Deployment
+
+- You can find the contract ABI under this project/build/contracts/ERC20UStakingU.sol/ERC20U.json
+
+- YOU MUST KEEP/DUPLICATE YOUR `.openzeppelin` FOLDER AND YOUR DEPLOYMENT PRIVATE KEY INTACT. ANY CHANGE OF THAT FOLDER CONTENT OR LOSING THE PRIVATE KEY MAY MAKE YOU UNABLE TO UPGRADE YOUR CONTRACT FOREVER. IF THAT HAPPENS, YOU CAN ONLY DEPLOY A NEW CONTRACT. THERE IS NO OTHER WAY AROUND IT!
 
 #### Note
 

@@ -78,7 +78,7 @@ const config: HardhatUserConfig = {
     },
     sepolia: {
       url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
-      chainId: 5,
+      chainId: 11155111,
       gasPrice: ethers.utils.parseUnits("20", "gwei").toNumber(),
       gas: 25e6,
       accounts: [`0x${ADMINPK}`, `0x${USER1PK}`, `0x${USER2PK}`],
