@@ -1,3 +1,30 @@
+archive
+artifacts
+bytecode
+node_modules
+build
+coverage
+coverage.json
+cache
+removed
+.env
+.vscode
+.deployedCtrts
+yarn-error.log
+z*.sh
+# yarn.lock
+
+test/t1log.ts
+deploy
+assets
+scripts
+deploy*.sh
+
+# OpenZeppelin
+.openzeppelin/dev-*.json
+.openzeppelin/.session
+.openzeppelin/unknown-*.json
+
 # Logs
 logs
 *.log
