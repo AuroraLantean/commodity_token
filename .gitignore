@@ -15,7 +15,7 @@ z*.sh
 # yarn.lock
 
 test/t1log.ts
-deploy
+deploy/setupETH.ts
 assets
 scripts
 deploy*.sh
