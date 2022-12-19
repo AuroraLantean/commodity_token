@@ -44,9 +44,14 @@ in terminal two: $`yarn deploylocal`
 
 - Paste your Ethereum account in a Twitter tweet.
 - Paste that tweet URL to https://faucet-sepolia.rockx.com/
-- You need 0.2 Ethers to deploy on Sepolia network
+- You need 0.2 Sepolia Ethers in your deployment account
 - Deploy contract in terminal: $`yarn deploysepolia`
 - One deployed contract on Sepolia: 0xBC8D41B7eEE9825b6d8246654f1ac6f55AE823C5
+
+#### Deploy Contracts To MAIN network via Hardhat
+
+- You need some ETH Ethers in your deployment account
+- Deploy contract in terminal: $`yarn deploymain`
 
 #### After Deployment
 

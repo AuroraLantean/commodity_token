@@ -15,7 +15,8 @@
     "t2u": "npx hardhat test test/ERC20UStaking.ts",
     "hnode": "npx hardhat node",
     "deploylocal": "env DEBUG='@openzeppelin:*' npx hardhat run --network hardhatnode deploy/ERC20Uc.ts",
-    "deploysepolia": "env DEBUG='@openzeppelin:*' npx hardhat run --network sepolia deploy/ERC20Uc.ts"
+    "deploysepolia": "env DEBUG='@openzeppelin:*' npx hardhat run --network sepolia deploy/ERC20Uc.ts",
+    "deploymain": "env DEBUG='@openzeppelin:*' npx hardhat run --network main deploy/ERC20Uc.ts"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.1",

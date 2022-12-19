@@ -83,6 +83,13 @@ const config: HardhatUserConfig = {
       gas: 25e6,
       accounts: [`0x${ADMINPK}`, `0x${USER1PK}`, `0x${USER2PK}`],
     },
+    main: {
+      url: `https://mainnet.infura.io/v3/${INFURA_API_KEY}`,
+      chainId: 1,
+      gasPrice: ethers.utils.parseUnits("20", "gwei").toNumber(),
+      gas: 25e6,
+      accounts: [`0x${ADMINPK}`, `0x${USER1PK}`, `0x${USER2PK}`],
+    },
   },
   solidity: {
     compilers: [
